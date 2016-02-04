@@ -1,7 +1,7 @@
 {
   "name": "nchant",
   "version": "0.0.1",
-  "description": "nchant is a project of brave digital entertainment",
+  "description": "nchant is a project of enchant digital entertainment",
   "main": "nchant-angular.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
