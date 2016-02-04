@@ -1,0 +1,495 @@
+@import url(//fonts.googleapis.com/css?family=Lato|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+	font-size: 1em;
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+	font-size: 1em;
+}
+
+html {
+	 margin:0px;
+	 padding:0px;
+	 height:100%;
+	 min-height:100%;
+}
+
+body {
+	min-height:100%;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Roboto', Helvetica Neue, Helvetica, sans-serif;
+	/*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+	/*font-family: Helvetica Neue, sans-serif;*/
+	font-weight: 100;
+	background: #FDFDFD;
+	font-size: 16px;
+	color: #333;
+	height: 100%;
+	width: 100%;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: 900;
+  letter-spacing: -.02em;
+}
+
+strong {
+	font-weight: 900;
+}
+
+p {
+	/*color: #4a4a4a;*/
+}
+
+/* unvisited link */
+a:link {
+
+}
+
+/* visited link */
+a:visited {
+
+}
+
+/* mouse over link */
+a:hover {
+
+}
+
+/* selected link */
+a:active {
+
+}
+
+blockquote {
+
+}
+
+pre {
+
+}
+
+
+/*
+---------------------------------------------------------------
+	Macro
+---------------------------------------------------------------
+*/
+.main {
+	padding: 0;
+	margin: 0;
+	background-image: url("../media/images/bg_002.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.jumbo {
+	transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+}
+
+.subscribe {
+	padding-top: 200px;
+	transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition:.25s ease-in-out;
+}
+
+
+.thanks {
+	padding-top: 200px;
+	transition: .25s ease-in-out;
+   -moz-transition: .25s ease-in-out;
+   -webkit-transition: .25s ease-in-out;
+}
+
+
+.test-canvas {
+	position: absolute;
+}
+
+
+
+/*
+---------------------------------------------------------------
+	Header
+---------------------------------------------------------------
+*/
+
+.header {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	padding: 0;
+}
+
+
+.header-container {
+	width: 80%;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	vertical-align: middle;
+}
+
+
+.header-title {
+	display: inline-block;
+	font-family: 'Y2Kneophyte', Helvetica Neue, Helvetica, sans-serif;
+    display: inline-block;
+    color: #FDFDFD;
+    margin: 0;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+
+img.header-logo {
+    display: inline-block;
+    width: auto;
+    height: 42px;
+}
+
+
+
+
+/*
+---------------------------------------------------------------
+	Container
+---------------------------------------------------------------
+*/
+.container {
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	padding: 250px 0 0 0;
+  	text-align: center;
+}
+
+.jumbo {
+}
+
+.macro-caption {
+	color: white;
+	font-size: 4.7em;
+}
+
+.micro-caption {
+	/*margin-left: -100px;*/
+	color: white;
+	font-size: 2em;
+}
+
+
+
+/*
+---------------------------------------------------------------
+	Container
+---------------------------------------------------------------
+*/
+
+.subscribe-form {
+	display: inline-block;
+	text-align: center;
+	margin-right:auto;
+	/*background-color: rgba(255, 255, 255, 0.6);*/
+}
+
+.subscribe-input-div {
+	height: 45px;
+	width: 500px;
+	vertical-align: bottom;
+	border-radius: 20px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	overflow: hidden;
+	margin: 30px 0;
+}
+
+.subscribe-input-stub {
+	width: 60px;
+	height: 45px;
+	color: white;
+	background-color: red;
+	display: inline-block;
+	margin: 0;
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+input.subscribe-input-field {
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 45px;
+	width: 439px;
+	font-size: 20px;
+	border-width: 0;
+	border-radius: 0;
+	margin: 0;
+	font-weight: 300;
+	display: inline-block;
+	vertical-align: bottom;
+	box-shadow: none;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+input.subscribe-input-field:focus {
+	/*display: inline-block;*/
+	box-shadow: none;
+}
+
+
+
+
+
+.heroBtn {
+	font-family: 'Y2Kneophyte', Helvetica Neue, Helvetica, sans-serif;
+    display: inline-block;
+    color: #FDFDFD;
+    margin: 0;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+/*    width: 178px;
+    height: 60px;*/
+    /*text-transform: uppercase;*/
+    text-align: center;
+    background-color: #00A1E1;
+    border-color: #00A1E1;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: border-color, color, background-color .1s linear;
+   -moz-transition: border-color, color, background-color .1s linear;
+   -webkit-transition: border-color, color, background-color .1s linear;
+   -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow:none;
+	text-rendering: optimizeLegibility;
+
+}
+
+.heroBtn:hover {
+    color: #00A1E1;
+    background-color: transparent;
+    border-color: #00A1E1;
+    border-style: solid;
+    border-width: 1px;
+    transition: border-color, background-color .1s linear;
+   -moz-transition: border-color, background-color .1s linear;
+   -webkit-transition: border-color, background-color .1s linear;
+}
+
+.heroBtn.inverse {
+    color: #FDFDFD;
+    background-color: transparent;
+    border-color: #FDFDFD;
+}
+
+.heroBtn.inverse:hover {
+    color: #ED5565;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: #ED5565;
+}
+
+.heroBtn.inverse.blue:hover {
+    color: #00A1E1;
+    font-weight: 300;
+    background-color: #FDFDFD;
+    border-color: #FDFDFD;
+}
+
+
+
+
+
+
+/*
+---------------------------------------------------------------
+	Decorators
+---------------------------------------------------------------
+*/
+
+
+.thanks-macro-caption {
+	color: white;
+	font-size: 9em;
+}
+
+.thanks-micro-caption {
+	/*margin-left: -100px;*/
+	color: white;
+	font-size: 3em;
+}
+
+
+/*
+---------------------------------------------------------------
+	Decorators
+---------------------------------------------------------------
+*/
+
+
+.heavy {
+	font-weight: 900;
+}
+
+.normal {
+	font-weight: 300;
+}
+
+.light {
+	font-weight: 200;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.header-elm {
+	margin-top: 10px;
+}
+
+.header-elm-2 {
+	margin-top: 13px;
+}
+
+
+
+
+
+/* #Color Decorators */
+.color-red {
+	color: #ED5565;
+}
+
+.color-red-dark {
+	color: #DA4453;
+}
+
+
+
+/* Background Color Decorators */
+.bg-color-red {
+	background-color: #ED5564;
+}
+
+.bg-color-red-dark {
+	background-color: #DA4453;
+}
+
+
+
+/* Border Color Decorators */
+.border-color-red {
+	border-color: #ED5565;
+}
+
+.border-color-red-dark {
+	border-color: #DA4453;
+}
+
+
+
+/* Border Color Decorators */
+.border-color-red:focus {
+	border-color: #ED5565;
+}
+
+.border-color-red-dark:focus {
+	border-color: #DA4453;
+}
+
+
+
+.glyph-xxs {
+	font-size: 15px;
+}
+
+.glyph-16 {
+	font-size: 16px;
+}
+
+.glyph-18 {
+	font-size: 18px;
+}
+
+.glyph-md {
+	font-size: 30px;
+}
+

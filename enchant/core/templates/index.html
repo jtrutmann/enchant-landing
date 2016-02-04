@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+<!-- {% load i18n %} -->
+{% block content %}
+<ui-view id="enchant-view"> Loading...</ui-view>
+{% endblock content %}
+{% block extra_javascript %}
+    <!-- Angular -->
+    <script src="{% static "dependencies/angular.min.js" %}"></script>
+    <script src="{% static "dependencies/angular-resource.min.js" %}"></script>
+    <script src="{% static "dependencies/angular-route.min.js" %}"></script>
+    <script src="{% static "dependencies/angular-ui-router.min.js" %}"></script>
+    <script src="{% static "dependencies/angular-parallax.js" %}"></script>
+    <script src="{% static "dependencies/showdown.min.js" %}"></script>
+    <script src="{% static "dependencies/angular-sanitize.min.js" %}"></script>
+    <script src="{% static "dependencies/markdown.js" %}"></script>
+    <script src="{% static "dependencies/angular-file-upload.min.js" %}"></script>
+    <script src="{% static "dependencies/proton.min.js" %}"></script>
+    <!-- enchant -->
+    <script src="{% static "app/ng-enchant.js" %}"></script>
+
+{% endblock extra_javascript %}
