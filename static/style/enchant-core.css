@@ -46,14 +46,34 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
 /* Styles */
-	font-size: 1em;
+
+	.header-title {
+
+	    font-size: 20px;
+	}
+
+
+	img.header-logo {
+	    display: inline-block;
+	    width: auto;
+	    height: 42px;
+	}
 }
 
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
 /* Styles */
-	font-size: 1em;
+
+	.header-title {
+
+	    font-size: 32px;
+	}
+
+
+	img.header-logo {
+	    height: 42px;
+	}
 }
 
 html {
@@ -174,7 +194,7 @@ pre {
 
 .header {
 	position: absolute;
-	height: 100px;
+	height: auto;
 	width: 100%;
 	-webkit-transition-duration: 0.3s;
   	transition-duration: 0.3s;
@@ -184,12 +204,13 @@ pre {
 
 .header-container {
 	width: 80%;
-	padding-top: 5px;
+	/*padding-top: 5px;*/
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-transition-duration: 0.3s;
   	transition-duration: 0.3s;
   	vertical-align: middle;
+  	max-height: 120px;
 }
 
 
@@ -198,9 +219,11 @@ pre {
 	font-family: 'Y2Kneophyte', Helvetica Neue, Helvetica, sans-serif;
     display: inline-block;
     color: #FDFDFD;
-    margin: 0;
+    margin: 20px 0px;
     padding: 20px;
     font-size: 32px;
+ /*   font-size: 2vw;
+    font-size: min(30px);*/
     font-weight: 200;
     letter-spacing: 2px;
     vertical-align: middle;
@@ -223,7 +246,7 @@ img.header-logo {
 */
 .container {
 	width: 1000px;
-	height: 100%;
+	min-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-transition-duration: 0.3s;
@@ -491,5 +514,178 @@ input.subscribe-input-field:focus {
 
 .glyph-md {
 	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+
+	.container {
+		padding-top: 100px;
+		width: 90%;
+	}
+
+	.macro-caption {
+		font-size: 3em;
+	}
+
+	.micro-caption {
+		font-size: 1.5em;
+	}
+
+
+	.subscribe {
+		padding-top: 50px;
+	}
+
+
+	.thanks {
+		padding-top: 50px;
+	}
+
+
+	.header-title {
+		margin: 10px 0;
+	    font-size: 25px;
+	    padding: 10px;
+	}
+
+
+	img.header-logo {
+	    display: inline-block;
+	    width: auto;
+	    height: 30px;
+	}
+
+	.subscribe-input-div {
+	/*	height: 45px;*/
+		width: 300px;
+	}
+
+	input.subscribe-input-field {
+	/*	height: 45px;*/
+		width: 239px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-width : 756px) {
+/* Styles */
+
+	.macro-caption {
+		font-size: 4em;
+	}
+
+	.micro-caption {
+		font-size: 1.7em;
+	}
+
+	.subscribe {
+		padding-top: 100px;
+	}
+
+	.thanks {
+		padding-top: 100px;
+	}
+
+	.container {
+		padding-top: 100px;
+	}
+
+	.subscribe-input-div {
+	/*	height: 45px;*/
+		width: 400px;
+	}
+
+	input.subscribe-input-field {
+	/*	height: 45px;*/
+		width: 339px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 1024px){
+/* Styles */
+	.container {
+		padding-top: 150px;
+	}
+
+	.header-title {
+		margin: 20px 0;
+	    padding: 12px;
+	}
+
+	.subscribe-input-div {
+	/*	height: 45px;*/
+		width: 500px;
+	}
+
+	input.subscribe-input-field {
+	/*	height: 45px;*/
+		width: 439px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+
+	.macro-caption {
+		font-size: 4.7em;
+	}
+
+	.micro-caption {
+		font-size: 2em;
+	}
+
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1440px) {
+/* Styles */
+	.container {
+		padding-top: 200px;
+	}
+
+	.subscribe {
+		padding-top: 200px;
+	}
+
+	.thanks {
+		padding-top: 200px;
+	}
+
+	.header-title {
+
+	    font-size: 32px;
+	}
+
+
+	img.header-logo {
+	    height: 42px;
+	}
 }
 
