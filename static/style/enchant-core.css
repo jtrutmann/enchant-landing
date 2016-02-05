@@ -517,22 +517,6 @@ input.subscribe-input-field:focus {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
-}
-
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
@@ -570,18 +554,14 @@ and (min-width : 321px) {
 
 
 	img.header-logo {
-	    display: inline-block;
-	    width: auto;
 	    height: 30px;
 	}
 
 	.subscribe-input-div {
-	/*	height: 45px;*/
 		width: 300px;
 	}
 
 	input.subscribe-input-field {
-	/*	height: 45px;*/
 		width: 239px;
 	}
 }
@@ -664,7 +644,7 @@ and (min-width : 1224px) {
 
 /* Large screens ----------- */
 @media only screen
-and (min-width : 1440px) {
+and (min-width : 1530px) {
 /* Styles */
 	.container {
 		padding-top: 200px;
